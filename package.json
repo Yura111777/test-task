@@ -1,0 +1,31 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "nodemon": "^2.0.15",
+    "prettier": "^1.17.0"
+  }
+}
